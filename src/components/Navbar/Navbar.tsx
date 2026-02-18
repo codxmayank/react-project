@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex items-end gap-4 mb-10 border-2 border-gray-500 rounded-lg p-6">
+    <div className="flex items-end gap-4 border-2 border-gray-500 rounded-lg p-4">
       <NavLink to="/">
         <div className="text-2xl font-bold mr-10">Project</div>
       </NavLink>
@@ -23,6 +23,12 @@ const Navbar = () => {
         className={(e) => (e.isActive ? "text-green-500!" : "")}
       >
         <h6>About</h6>
+      </NavLink>
+      <NavLink
+        to="/topics"
+        className={(e) => (e.isActive ? "text-green-500!" : "")}
+      >
+        <h6>Topics</h6>
       </NavLink>
     </div>
   );
