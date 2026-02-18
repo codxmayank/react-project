@@ -4,7 +4,6 @@ const TopicIndex = () => {
   return (
     <>
       <div>
-
         <nav>
           <NavLink to="useEffect" className={(e) => (e.isActive ? "text-yellow-500!" : "")}>useEffect</NavLink> |{" "}
           <NavLink to="useState" className={(e) => (e.isActive ? "text-yellow-500!" : "")}>useState</NavLink> |{" "}
