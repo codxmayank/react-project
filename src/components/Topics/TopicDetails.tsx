@@ -8,7 +8,8 @@ const topicComponentMap: Record<
   React.LazyExoticComponent<React.ComponentType>
 > = {
   [TOPIC_NAMES.USE_EFFECT]: React.lazy(() => import('../../pages/Topics/UseEffect')),
-  [TOPIC_NAMES.USE_STATE]: React.lazy(() => import('../../pages/Topics/UseEffect'))
+  [TOPIC_NAMES.USE_STATE]: React.lazy(() => import('../../pages/Topics/UseEffect')),
+  [TOPIC_NAMES.USE_REF]: React.lazy(() => import('../../pages/Topics/UseRef'))
 }
 
 export default function TopicDetails() {
