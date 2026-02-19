@@ -9,7 +9,9 @@ const topicComponentMap: Record<
 > = {
   [TOPIC_NAMES.USE_EFFECT]: React.lazy(() => import('../../pages/Topics/UseEffect')),
   [TOPIC_NAMES.USE_STATE]: React.lazy(() => import('../../pages/Topics/UseEffect')),
-  [TOPIC_NAMES.USE_REF]: React.lazy(() => import('../../pages/Topics/UseRef'))
+  [TOPIC_NAMES.USE_REF]: React.lazy(() => import('../../pages/Topics/UseRef')),
+  [TOPIC_NAMES.CUSTOM_HOOKS]: React.lazy(() => import('../../pages/Topics/CustomHooks/CustomHooks')),
+  [TOPIC_NAMES.REACT_MEMO]: React.lazy(() => import('../../pages/Topics/ReactMemo')),
 }
 
 export default function TopicDetails() {
