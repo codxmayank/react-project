@@ -12,6 +12,7 @@ const topicComponentMap: Record<
   [TOPIC_NAMES.USE_REF]: React.lazy(() => import('../../pages/Topics/UseRef')),
   [TOPIC_NAMES.CUSTOM_HOOKS]: React.lazy(() => import('../../pages/Topics/CustomHooks/CustomHooks')),
   [TOPIC_NAMES.REACT_MEMO]: React.lazy(() => import('../../pages/Topics/ReactMemo')),
+  [TOPIC_NAMES.USE_REDUCER]: React.lazy(() => import('../../pages/Topics/UseReducer')),
 }
 
 export default function TopicDetails() {
